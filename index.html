@@ -3,89 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Personal Website</title>
     <link rel="stylesheet" href="styles.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <!-- Navigation -->
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="resume.html">Resume</a></li>
-            <li><a href="biodata.html">Bio Data</a></li>
-        </ul>
-    </nav>
-
-    <!-- Home Page Content -->
-    <div class="container">
-        <header>
-            <h1>Welcome to My Portfolio</h1>
-            <p>Web Developer & Designer</p>
-        </header>
-
-        <section class="about">
-            <h2>About Me</h2>
-            <p>A passionate web developer with expertise in HTML, CSS, JavaScript and modern web technologies.</p>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="biodata.html">Biodata</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h1>Welcome to My Website</h1>
+            <p>This is the homepage where you can find an overview of my portfolio and links to other pages.</p>
         </section>
-    </div>
-
-    <script src="script.js"></script>
+    </main>
+    <footer>
+        <p>&copy; 2024 Your Name</p>
+    </footer>
 </body>
 </html>
 
-<!-- styles.css -->
-<style>
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-}
-
-nav {
-    background: #333;
-    padding: 1rem;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-}
-
-nav ul li {
-    margin: 0 1rem;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-}
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 2rem;
-}
-
-header {
-    text-align: center;
-    margin-bottom: 2rem;
-}
-
-.about {
-    background: #f4f4f4;
-    padding: 2rem;
-    border-radius: 5px;
-}
-</style>
-
-<!-- resume.html -->
+<!-- Resume Page -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -93,131 +38,120 @@ header {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="resume.html">Resume</a></li>
-            <li><a href="biodata.html">Bio Data</a></li>
-        </ul>
-    </nav>
-
-    <div class="container">
-        <h1>Professional Resume</h1>
-        
-        <section class="education">
-            <h2>Education</h2>
-            <div class="edu-item">
-                <h3>University Name</h3>
-                <p>Degree - Field of Study</p>
-                <p>Year - Year</p>
-            </div>
-        </section>
-
-        <section class="experience">
-            <h2>Work Experience</h2>
-            <div class="exp-item">
-                <h3>Job Title</h3>
-                <p>Company Name</p>
-                <p>Year - Present</p>
-                <ul>
-                    <li>Achievement 1</li>
-                    <li>Achievement 2</li>
-                    <li>Achievement 3</li>
-                </ul>
-            </div>
-        </section>
-
-        <section class="skills">
-            <h2>Skills</h2>
+    <header>
+        <nav>
             <ul>
-                <li>HTML5, CSS3, JavaScript</li>
-                <li>React.js</li>
-                <li>Node.js</li>
-                <li>SQL</li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="biodata.html">Biodata</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="resume">
+            <h1>My Resume</h1>
+            <p>Below are details about my education, work experience, and skills:</p>
+            <ul>
+                <li><strong>Education:</strong> Bachelor of Technology in Electronics and Communication</li>
+                <li><strong>Skills:</strong> Programming, Problem Solving, Leadership</li>
+                <li><strong>Experience:</strong> Internships and Projects</li>
             </ul>
         </section>
-    </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Your Name</p>
+    </footer>
 </body>
 </html>
 
-<!-- biodata.html -->
+<!-- Biodata Page -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bio Data</title>
+    <title>Biodata</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="resume.html">Resume</a></li>
-            <li><a href="biodata.html">Bio Data</a></li>
-        </ul>
-    </nav>
-
-    <div class="container">
-        <h1>Personal Bio Data</h1>
-        
-        <section class="personal-info">
-            <h2>Personal Information</h2>
-            <div class="info-grid">
-                <div class="info-item">
-                    <strong>Full Name:</strong>
-                    <p>Your Name</p>
-                </div>
-                <div class="info-item">
-                    <strong>Date of Birth:</strong>
-                    <p>DD/MM/YYYY</p>
-                </div>
-                <div class="info-item">
-                    <strong>Address:</strong>
-                    <p>Your Address</p>
-                </div>
-                <div class="info-item">
-                    <strong>Email:</strong>
-                    <p>your.email@example.com</p>
-                </div>
-                <div class="info-item">
-                    <strong>Phone:</strong>
-                    <p>+1234567890</p>
-                </div>
-            </div>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="biodata.html">Biodata</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="biodata">
+            <h1>Biodata</h1>
+            <p>Here is my biodata containing personal details:</p>
+            <ul>
+                <li><strong>Name:</strong> Your Name</li>
+                <li><strong>Age:</strong> 25</li>
+                <li><strong>Address:</strong> 123 Main Street, City, Country</li>
+                <li><strong>Hobbies:</strong> Reading, Coding, Traveling</li>
+            </ul>
         </section>
-    </div>
-
-    <script>
-        // Add any interactive features using jQuery
-        $(document).ready(function() {
-            $('.info-item').hover(
-                function() {
-                    $(this).css('background-color', '#f0f0f0');
-                },
-                function() {
-                    $(this).css('background-color', 'transparent');
-                }
-            );
-        });
-    </script>
+    </main>
+    <footer>
+        <p>&copy; 2024 Your Name</p>
+    </footer>
 </body>
 </html>
 
-<!-- Instructions for hosting on a cloud platform -->
-<!-- 
-1. Choose a cloud platform (e.g., GitHub Pages, Netlify, or Vercel)
-2. For GitHub Pages:
-   - Create a new repository
-   - Upload all HTML, CSS, and JS files
-   - Go to repository settings
-   - Under GitHub Pages section, select main branch as source
-   - Your site will be live at username.github.io/repository-name
-3. For Netlify:
-   - Sign up for Netlify
-   - Drag and drop your project folder to Netlify's upload section
-   - Your site will be live with a Netlify subdomain
-   - You can customize the domain name in settings
--->
+<!-- styles.css -->
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    padding: 2rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+}
+
+/* script.js */
+$(document).ready(function () {
+    $('nav ul li a').on('click', function (event) {
+        alert('Navigating to ' + $(this).text() + ' page!');
+    });
+});
